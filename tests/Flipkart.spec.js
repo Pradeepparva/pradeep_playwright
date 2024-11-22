@@ -32,7 +32,7 @@ test('Fetch product list and price',async({page})=>{
 //to show the dynamic brand which we choose (dynamic xpath)
 // www.amazon.com
 test('dynamic X-path',async({page})=>{
-    await page.goto("www.amazon.com")
+    await page.goto("https://www.flipkart.com/")
     // await expect(page).toHaveTitle("")
 })
 
